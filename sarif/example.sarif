@@ -1,0 +1,2276 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Cortex CLI",
+          "version": "1.0.0",
+          "informationUri": "https://www.paloaltonetworks.com/cortex/cloud",
+          "rules": [
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in qs version 0.5.1",
+              "shortDescription": {
+                "text": "Low operational risk in qs version 0.5.1"
+              },
+              "fullDescription": {
+                "text": "Package qs@0.5.1 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in qs version 0.5.1\nResource: sca/package-lock.json.qs"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in cookie version 0.0.4",
+              "shortDescription": {
+                "text": "Low operational risk in cookie version 0.0.4"
+              },
+              "fullDescription": {
+                "text": "Package cookie@0.0.4 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in cookie version 0.0.4\nResource: sca/package-lock.json.cookie"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in debug version 4.3.3",
+              "shortDescription": {
+                "text": "Low operational risk in debug version 4.3.3"
+              },
+              "fullDescription": {
+                "text": "Package debug@4.3.3 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in debug version 4.3.3\nResource: sca/package-lock.json.debug"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in commander version 0.6.1",
+              "shortDescription": {
+                "text": "Low operational risk in commander version 0.6.1"
+              },
+              "fullDescription": {
+                "text": "Package commander@0.6.1 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in commander version 0.6.1\nResource: sca/package-lock.json.commander"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in range-parser version 0.0.4",
+              "shortDescription": {
+                "text": "Low operational risk in range-parser version 0.0.4"
+              },
+              "fullDescription": {
+                "text": "Package range-parser@0.0.4 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in range-parser version 0.0.4\nResource: sca/package-lock.json.range-parser"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in mime version 1.2.6",
+              "shortDescription": {
+                "text": "Low operational risk in mime version 1.2.6"
+              },
+              "fullDescription": {
+                "text": "Package mime@1.2.6 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in mime version 1.2.6\nResource: sca/package-lock.json.mime"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in mkdirp version 0.3.3",
+              "shortDescription": {
+                "text": "Low operational risk in mkdirp version 0.3.3"
+              },
+              "fullDescription": {
+                "text": "Package mkdirp@0.3.3 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in mkdirp version 0.3.3\nResource: sca/package-lock.json.mkdirp"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_MEDIUM",
+              "name": "Medium operational risk in pause version 0.0.1",
+              "shortDescription": {
+                "text": "Medium operational risk in pause version 0.0.1"
+              },
+              "fullDescription": {
+                "text": "Package pause@0.0.1 has operational risk: MEDIUM"
+              },
+              "help": {
+                "text": "Medium operational risk in pause version 0.0.1\nResource: sca/package-lock.json.pause"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in ms version 2.1.2",
+              "shortDescription": {
+                "text": "Low operational risk in ms version 2.1.2"
+              },
+              "fullDescription": {
+                "text": "Package ms@2.1.2 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in ms version 2.1.2\nResource: sca/package-lock.json.ms"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in send version 0.1.0",
+              "shortDescription": {
+                "text": "Low operational risk in send version 0.1.0"
+              },
+              "fullDescription": {
+                "text": "Package send@0.1.0 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in send version 0.1.0\nResource: sca/package-lock.json.send"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in bytes version 0.1.0",
+              "shortDescription": {
+                "text": "Low operational risk in bytes version 0.1.0"
+              },
+              "fullDescription": {
+                "text": "Package bytes@0.1.0 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in bytes version 0.1.0\nResource: sca/package-lock.json.bytes"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in crc version 0.2.0",
+              "shortDescription": {
+                "text": "Low operational risk in crc version 0.2.0"
+              },
+              "fullDescription": {
+                "text": "Package crc@0.2.0 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in crc version 0.2.0\nResource: sca/package-lock.json.crc"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in lodash version 3.1.0",
+              "shortDescription": {
+                "text": "Low operational risk in lodash version 3.1.0"
+              },
+              "fullDescription": {
+                "text": "Package lodash@3.1.0 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in lodash version 3.1.0\nResource: sca/package-lock.json.lodash"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in connect version 2.6.0",
+              "shortDescription": {
+                "text": "Low operational risk in connect version 2.6.0"
+              },
+              "fullDescription": {
+                "text": "Package connect@2.6.0 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in connect version 2.6.0\nResource: sca/package-lock.json.connect"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in fresh version 0.1.0",
+              "shortDescription": {
+                "text": "Low operational risk in fresh version 0.1.0"
+              },
+              "fullDescription": {
+                "text": "Package fresh@0.1.0 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in fresh version 0.1.0\nResource: sca/package-lock.json.fresh"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in express version 3.0.0",
+              "shortDescription": {
+                "text": "Low operational risk in express version 3.0.0"
+              },
+              "fullDescription": {
+                "text": "Package express@3.0.0 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in express version 3.0.0\nResource: sca/package-lock.json.express"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in send version 0.0.4",
+              "shortDescription": {
+                "text": "Low operational risk in send version 0.0.4"
+              },
+              "fullDescription": {
+                "text": "Package send@0.0.4 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in send version 0.0.4\nResource: sca/package-lock.json.send"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in methods version 0.0.1",
+              "shortDescription": {
+                "text": "Low operational risk in methods version 0.0.1"
+              },
+              "fullDescription": {
+                "text": "Package methods@0.0.1 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in methods version 0.0.1\nResource: sca/package-lock.json.methods"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_OPRISK_LOW",
+              "name": "Low operational risk in formidable version 1.0.11",
+              "shortDescription": {
+                "text": "Low operational risk in formidable version 1.0.11"
+              },
+              "fullDescription": {
+                "text": "Package formidable@1.0.11 has operational risk: LOW"
+              },
+              "help": {
+                "text": "Low operational risk in formidable version 1.0.11\nResource: sca/package-lock.json.formidable"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2014_10064",
+              "name": "CVE-2014-10064 in qs, version: 0.5.1",
+              "shortDescription": {
+                "text": "CVE-2014-10064 in qs, version: 0.5.1"
+              },
+              "fullDescription": {
+                "text": "The qs module before 1.0.0 does not have an option or default for specifying object depth and when parsing a string representing a deeply nested object will block the event loop for long periods of time. An attacker could leverage this to cause a temporary denial-of-service condition, for example, in a web application, other requests would not be processed while this blocking is occurring."
+              },
+              "help": {
+                "text": "Update to 1.0.0 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2014-10064",
+              "properties": {
+                "security-severity": "7.5"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2017_1000048",
+              "name": "CVE-2017-1000048 in qs, version: 0.5.1",
+              "shortDescription": {
+                "text": "CVE-2017-1000048 in qs, version: 0.5.1"
+              },
+              "fullDescription": {
+                "text": "the web framework using ljharb's qs module older than v6.3.2, v6.2.3, v6.1.2, and v6.0.4 is vulnerable to a DoS. A malicious user can send a evil request to cause the web framework crash."
+              },
+              "help": {
+                "text": "Update to 6.1.2 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2017-1000048",
+              "properties": {
+                "security-severity": "7.5"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2022_24999",
+              "name": "CVE-2022-24999 in qs, version: 0.5.1",
+              "shortDescription": {
+                "text": "CVE-2022-24999 in qs, version: 0.5.1"
+              },
+              "fullDescription": {
+                "text": "qs before 6.10.3, as used in Express before 4.17.3 and other products, allows attackers to cause a Node process hang for an Express application because an __ proto__ key can be used. In many typical Express use cases, an unauthenticated remote attacker can place the attack payload in the query string of the URL that is used to visit the application, such as a[__proto__]=b&a[__proto__]&a[length]=100000000. The fix was backported to qs 6.9.7, 6.8.3, 6.7.3, 6.6.1, 6.5.3, 6.4.1, 6.3.3, and 6.2.4 (and therefore Express 4.17.3, which has \"deps: qs@6.9.7\" in its release description, is not vulnerable)."
+              },
+              "help": {
+                "text": "Update to 6.10.3 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2022-24999",
+              "properties": {
+                "security-severity": "7.5"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2024_47764",
+              "name": "CVE-2024-47764 in cookie, version: 0.0.4",
+              "shortDescription": {
+                "text": "CVE-2024-47764 in cookie, version: 0.0.4"
+              },
+              "fullDescription": {
+                "text": "cookie is a basic HTTP cookie parser and serializer for HTTP servers. The cookie name could be used to set other fields of the cookie, resulting in an unexpected cookie value. A similar escape can be used for path and domain, which could be abused to alter other fields of the cookie. Upgrade to 0.7.0, which updates the validation for name, path, and domain."
+              },
+              "help": {
+                "text": "Update to 0.7.0 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2024-47764",
+              "properties": {
+                "security-severity": "0"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2017_16138",
+              "name": "CVE-2017-16138 in mime, version: 1.2.6",
+              "shortDescription": {
+                "text": "CVE-2017-16138 in mime, version: 1.2.6"
+              },
+              "fullDescription": {
+                "text": "The mime module < 1.4.1, 2.0.1, 2.0.2 is vulnerable to regular expression denial of service when a mime lookup is performed on untrusted user input."
+              },
+              "help": {
+                "text": "Update to 1.4.1 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2017-16138",
+              "properties": {
+                "security-severity": "7.5"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2015_8859",
+              "name": "CVE-2015-8859 in send, version: 0.1.0",
+              "shortDescription": {
+                "text": "CVE-2015-8859 in send, version: 0.1.0"
+              },
+              "fullDescription": {
+                "text": "The send package before 0.11.1 for Node.js allows attackers to obtain the root path via unspecified vectors."
+              },
+              "help": {
+                "text": "Update to 0.11.1 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2015-8859",
+              "properties": {
+                "security-severity": "5.3"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2024_43799",
+              "name": "CVE-2024-43799 in send, version: 0.1.0",
+              "shortDescription": {
+                "text": "CVE-2024-43799 in send, version: 0.1.0"
+              },
+              "fullDescription": {
+                "text": "Send is a library for streaming files from the file system as a http response. Send passes untrusted user input to SendStream.redirect() which executes untrusted code. This issue is patched in send 0.19.0."
+              },
+              "help": {
+                "text": "Update to 0.19.0 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2024-43799",
+              "properties": {
+                "security-severity": "4.7"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2020_8203",
+              "name": "CVE-2020-8203 in lodash, version: 3.1.0",
+              "shortDescription": {
+                "text": "CVE-2020-8203 in lodash, version: 3.1.0"
+              },
+              "fullDescription": {
+                "text": "Prototype pollution attack when using _.zipObjectDeep in lodash before 4.17.20."
+              },
+              "help": {
+                "text": "Update to 4.17.20 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2020-8203",
+              "properties": {
+                "security-severity": "7.4"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2020_28500",
+              "name": "CVE-2020-28500 in lodash, version: 3.1.0",
+              "shortDescription": {
+                "text": "CVE-2020-28500 in lodash, version: 3.1.0"
+              },
+              "fullDescription": {
+                "text": "Lodash versions prior to 4.17.21 are vulnerable to Regular Expression Denial of Service (ReDoS) via the toNumber, trim and trimEnd functions."
+              },
+              "help": {
+                "text": "Update to 4.17.21 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2020-28500",
+              "properties": {
+                "security-severity": "5.3"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2019_10744",
+              "name": "CVE-2019-10744 in lodash, version: 3.1.0",
+              "shortDescription": {
+                "text": "CVE-2019-10744 in lodash, version: 3.1.0"
+              },
+              "fullDescription": {
+                "text": "Versions of lodash lower than 4.17.12 are vulnerable to Prototype Pollution. The function defaultsDeep could be tricked into adding or modifying properties of Object.prototype using a constructor payload."
+              },
+              "help": {
+                "text": "Update to 4.17.12 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2019-10744",
+              "properties": {
+                "security-severity": "9.1"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2021_23337",
+              "name": "CVE-2021-23337 in lodash, version: 3.1.0",
+              "shortDescription": {
+                "text": "CVE-2021-23337 in lodash, version: 3.1.0"
+              },
+              "fullDescription": {
+                "text": "Lodash versions prior to 4.17.21 are vulnerable to Command Injection via the template function."
+              },
+              "help": {
+                "text": "Update to 4.17.21 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2021-23337",
+              "properties": {
+                "security-severity": "7.2"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2018_3721",
+              "name": "CVE-2018-3721 in lodash, version: 3.1.0",
+              "shortDescription": {
+                "text": "CVE-2018-3721 in lodash, version: 3.1.0"
+              },
+              "fullDescription": {
+                "text": "lodash node module before 4.17.5 suffers from a Modification of Assumed-Immutable Data (MAID) vulnerability via defaultsDeep, merge, and mergeWith functions, which allows a malicious user to modify the prototype of \"Object\" via __proto__, causing the addition or modification of an existing property that will exist on all objects."
+              },
+              "help": {
+                "text": "Update to 4.17.5 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2018-3721",
+              "properties": {
+                "security-severity": "6.5"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2018_16487",
+              "name": "CVE-2018-16487 in lodash, version: 3.1.0",
+              "shortDescription": {
+                "text": "CVE-2018-16487 in lodash, version: 3.1.0"
+              },
+              "fullDescription": {
+                "text": "A prototype pollution vulnerability was found in lodash <4.17.11 where the functions merge, mergeWith, and defaultsDeep can be tricked into adding or modifying properties of Object.prototype."
+              },
+              "help": {
+                "text": "Update to 4.17.11 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2018-16487",
+              "properties": {
+                "security-severity": "5.6"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2019_1010266",
+              "name": "CVE-2019-1010266 in lodash, version: 3.1.0",
+              "shortDescription": {
+                "text": "CVE-2019-1010266 in lodash, version: 3.1.0"
+              },
+              "fullDescription": {
+                "text": "lodash prior to 4.17.11 is affected by: CWE-400: Uncontrolled Resource Consumption. The impact is: Denial of service. The component is: Date handler. The attack vector is: Attacker provides very long strings, which the library attempts to match using a regular expression. The fixed version is: 4.17.11."
+              },
+              "help": {
+                "text": "Update to 4.17.11 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2019-1010266",
+              "properties": {
+                "security-severity": "6.5"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2013_7371",
+              "name": "CVE-2013-7371 in connect, version: 2.6.0",
+              "shortDescription": {
+                "text": "CVE-2013-7371 in connect, version: 2.6.0"
+              },
+              "fullDescription": {
+                "text": "node-connects before 2.8.2 has cross site scripting in Sencha Labs Connect middleware (vulnerability due to incomplete fix for CVE-2013-7370)"
+              },
+              "help": {
+                "text": "Update to 2.8.2 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2013-7371",
+              "properties": {
+                "security-severity": "6.1"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2018_3717",
+              "name": "CVE-2018-3717 in connect, version: 2.6.0",
+              "shortDescription": {
+                "text": "CVE-2018-3717 in connect, version: 2.6.0"
+              },
+              "fullDescription": {
+                "text": "connect node module before 2.14.0 suffers from a Cross-Site Scripting (XSS) vulnerability due to a lack of validation of file in directory.js middleware."
+              },
+              "help": {
+                "text": "Update to 2.14.0 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2018-3717",
+              "properties": {
+                "security-severity": "5.4"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2013_7370",
+              "name": "CVE-2013-7370 in connect, version: 2.6.0",
+              "shortDescription": {
+                "text": "CVE-2013-7370 in connect, version: 2.6.0"
+              },
+              "fullDescription": {
+                "text": "node-connect before 2.8.1 has XSS in the Sencha Labs Connect middleware"
+              },
+              "help": {
+                "text": "Update to 2.8.1 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2013-7370",
+              "properties": {
+                "security-severity": "6.1"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2017_16119",
+              "name": "CVE-2017-16119 in fresh, version: 0.1.0",
+              "shortDescription": {
+                "text": "CVE-2017-16119 in fresh, version: 0.1.0"
+              },
+              "fullDescription": {
+                "text": "Fresh is a module used by the Express.js framework for HTTP response freshness testing. It is vulnerable to a regular expression denial of service when it is passed specially crafted input to parse. This causes the event loop to be blocked causing a denial of service condition."
+              },
+              "help": {
+                "text": "Update to 0.5.2 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2017-16119",
+              "properties": {
+                "security-severity": "7.5"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2024_10491",
+              "name": "CVE-2024-10491 in express, version: 3.0.0",
+              "shortDescription": {
+                "text": "CVE-2024-10491 in express, version: 3.0.0"
+              },
+              "fullDescription": {
+                "text": "A vulnerability has been identified in the Express response.links\u00a0function, allowing for arbitrary resource injection in the Link\u00a0header when unsanitized data is used.  The issue arises from improper sanitization in `Link` header values, which can allow a combination of characters like `,`, `;`, and `<>` to preload malicious resources.  This vulnerability is especially relevant for dynamic parameters."
+              },
+              "help": {
+                "text": "CVE-2024-10491 in express, version: 3.0.0\nResource: sca/package-lock.json.express"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2024-10491",
+              "properties": {
+                "security-severity": "5.3"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2022_24999",
+              "name": "CVE-2022-24999 in express, version: 3.0.0",
+              "shortDescription": {
+                "text": "CVE-2022-24999 in express, version: 3.0.0"
+              },
+              "fullDescription": {
+                "text": "qs before 6.10.3, as used in Express before 4.17.3 and other products, allows attackers to cause a Node process hang for an Express application because an __ proto__ key can be used. In many typical Express use cases, an unauthenticated remote attacker can place the attack payload in the query string of the URL that is used to visit the application, such as a[__proto__]=b&a[__proto__]&a[length]=100000000. The fix was backported to qs 6.9.7, 6.8.3, 6.7.3, 6.6.1, 6.5.3, 6.4.1, 6.3.3, and 6.2.4 (and therefore Express 4.17.3, which has \"deps: qs@6.9.7\" in its release description, is not vulnerable)."
+              },
+              "help": {
+                "text": "Update to 6.10.3 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2022-24999",
+              "properties": {
+                "security-severity": "7.5"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2024_29041",
+              "name": "CVE-2024-29041 in express, version: 3.0.0",
+              "shortDescription": {
+                "text": "CVE-2024-29041 in express, version: 3.0.0"
+              },
+              "fullDescription": {
+                "text": "Express.js minimalist web framework for node. Versions of Express.js prior to 4.19.0 and all pre-release alpha and beta versions of 5.0 are affected by an open redirect vulnerability using malformed URLs. When a user of Express performs a redirect using a user-provided URL Express performs an encode [using `encodeurl`](https://github.com/pillarjs/encodeurl) on the contents before passing it to the `location` header. This can cause malformed URLs to be evaluated in unexpected ways by common redirect allow list implementations in Express applications, leading to an Open Redirect via bypass of a properly implemented allow list. The main method impacted is `res.location()` but this is also called from within `res.redirect()`. The vulnerability is fixed in 4.19.2 and 5.0.0-beta.3."
+              },
+              "help": {
+                "text": "Update to 4.19.2 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2024-29041",
+              "properties": {
+                "security-severity": "6.1"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2024_43796",
+              "name": "CVE-2024-43796 in express, version: 3.0.0",
+              "shortDescription": {
+                "text": "CVE-2024-43796 in express, version: 3.0.0"
+              },
+              "fullDescription": {
+                "text": "Express.js minimalist web framework for node. In express < 4.20.0, passing untrusted user input - even after sanitizing it - to response.redirect() may execute untrusted code. This issue is patched in express 4.20.0."
+              },
+              "help": {
+                "text": "Update to 4.20.0 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2024-43796",
+              "properties": {
+                "security-severity": "4.7"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2015_8859",
+              "name": "CVE-2015-8859 in send, version: 0.0.4",
+              "shortDescription": {
+                "text": "CVE-2015-8859 in send, version: 0.0.4"
+              },
+              "fullDescription": {
+                "text": "The send package before 0.11.1 for Node.js allows attackers to obtain the root path via unspecified vectors."
+              },
+              "help": {
+                "text": "Update to 0.11.1 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2015-8859",
+              "properties": {
+                "security-severity": "5.3"
+              }
+            },
+            {
+              "id": "APPSEC_VULN_CVE_2024_43799",
+              "name": "CVE-2024-43799 in send, version: 0.0.4",
+              "shortDescription": {
+                "text": "CVE-2024-43799 in send, version: 0.0.4"
+              },
+              "fullDescription": {
+                "text": "Send is a library for streaming files from the file system as a http response. Send passes untrusted user input to SendStream.redirect() which executes untrusted code. This issue is patched in send 0.19.0."
+              },
+              "help": {
+                "text": "Update to 0.19.0 or later."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2024-43799",
+              "properties": {
+                "security-severity": "4.7"
+              }
+            },
+            {
+              "id": "CKV_SECRET_17",
+              "name": "Stripe Access Key",
+              "shortDescription": {
+                "text": "Stripe Access Key"
+              },
+              "fullDescription": {
+                "text": "Stripe Access Key"
+              },
+              "help": {
+                "text": "Stripe Access Key\nResource: 02bea9468571a8a4c4a8a2d373df2bd4627609ba12fe3c127dbe5c2fc3be9fdc"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CKV_SECRET_2",
+              "name": "AWS Access Key",
+              "shortDescription": {
+                "text": "AWS Access Key"
+              },
+              "fullDescription": {
+                "text": "AWS Access Key"
+              },
+              "help": {
+                "text": "AWS Access Key\nResource: 02bea9468571a8a4c4a8a2d373df2bd4627609ba12fe3c127dbe5c2fc3be9fdc"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CKV_AWS_20",
+              "name": "S3 Bucket has an ACL defined which allows public READ access.",
+              "shortDescription": {
+                "text": "S3 Bucket has an ACL defined which allows public READ access."
+              },
+              "fullDescription": {
+                "text": "S3 Bucket has an ACL defined which allows public READ access."
+              },
+              "help": {
+                "text": "S3 Bucket has an ACL defined which allows public READ access.\nResource: aws_s3_bucket.foo-bucket"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CKV2_AWS_61",
+              "name": "Ensure that an S3 bucket has a lifecycle configuration",
+              "shortDescription": {
+                "text": "Ensure that an S3 bucket has a lifecycle configuration"
+              },
+              "fullDescription": {
+                "text": "Ensure that an S3 bucket has a lifecycle configuration"
+              },
+              "help": {
+                "text": "Ensure that an S3 bucket has a lifecycle configuration\nResource: aws_s3_bucket.foo-bucket"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CKV_AWS_18",
+              "name": "Ensure the S3 bucket has access logging enabled",
+              "shortDescription": {
+                "text": "Ensure the S3 bucket has access logging enabled"
+              },
+              "fullDescription": {
+                "text": "Ensure the S3 bucket has access logging enabled"
+              },
+              "help": {
+                "text": "Ensure the S3 bucket has access logging enabled\nResource: aws_s3_bucket.foo-bucket"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CKV2_AWS_62",
+              "name": "Ensure S3 buckets should have event notifications enabled",
+              "shortDescription": {
+                "text": "Ensure S3 buckets should have event notifications enabled"
+              },
+              "fullDescription": {
+                "text": "Ensure S3 buckets should have event notifications enabled"
+              },
+              "help": {
+                "text": "Ensure S3 buckets should have event notifications enabled\nResource: aws_s3_bucket.foo-bucket"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CKV2_AWS_6",
+              "name": "Ensure that S3 bucket has a Public Access block",
+              "shortDescription": {
+                "text": "Ensure that S3 bucket has a Public Access block"
+              },
+              "fullDescription": {
+                "text": "Ensure that S3 bucket has a Public Access block"
+              },
+              "help": {
+                "text": "Ensure that S3 bucket has a Public Access block\nResource: aws_s3_bucket.foo-bucket"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CKV_AWS_145",
+              "name": "Ensure that S3 buckets are encrypted with KMS by default",
+              "shortDescription": {
+                "text": "Ensure that S3 buckets are encrypted with KMS by default"
+              },
+              "fullDescription": {
+                "text": "Ensure that S3 buckets are encrypted with KMS by default"
+              },
+              "help": {
+                "text": "Ensure that S3 buckets are encrypted with KMS by default\nResource: aws_s3_bucket.foo-bucket"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CKV_AWS_144",
+              "name": "Ensure that S3 bucket has cross-region replication enabled",
+              "shortDescription": {
+                "text": "Ensure that S3 bucket has cross-region replication enabled"
+              },
+              "fullDescription": {
+                "text": "Ensure that S3 bucket has cross-region replication enabled"
+              },
+              "help": {
+                "text": "Ensure that S3 bucket has cross-region replication enabled\nResource: aws_s3_bucket.foo-bucket"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CKV2_AWS_43",
+              "name": "Ensure S3 Bucket does not allow access to all Authenticated users",
+              "shortDescription": {
+                "text": "Ensure S3 Bucket does not allow access to all Authenticated users"
+              },
+              "fullDescription": {
+                "text": "Ensure S3 Bucket does not allow access to all Authenticated users"
+              },
+              "help": {
+                "text": "Ensure S3 Bucket does not allow access to all Authenticated users\nResource: aws_s3_bucket_acl.fail_2"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CKV_AWS_21",
+              "name": "Ensure all data stored in the S3 bucket have versioning enabled",
+              "shortDescription": {
+                "text": "Ensure all data stored in the S3 bucket have versioning enabled"
+              },
+              "fullDescription": {
+                "text": "Ensure all data stored in the S3 bucket have versioning enabled"
+              },
+              "help": {
+                "text": "Ensure all data stored in the S3 bucket have versioning enabled\nResource: aws_s3_bucket.foo-bucket"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            }
+          ],
+          "organization": "Palo Alto Networks"
+        }
+      },
+      "results": [
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package qs@0.5.1 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 125,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package cookie@0.0.4 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 50,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package debug@4.3.3 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 56,
+                  "endLine": 63,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package commander@0.6.1 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 12,
+                  "endLine": 16,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package range-parser@0.0.4 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 126,
+                  "endLine": 130,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package mime@1.2.6 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 101,
+                  "endLine": 105,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package mkdirp@0.3.3 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 106,
+                  "endLine": 110,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_MEDIUM",
+          "ruleIndex": 7,
+          "level": "warning",
+          "message": {
+            "text": "Package pause@0.0.1 has operational risk: MEDIUM"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 116,
+                  "endLine": 120,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package ms@2.1.2 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 111,
+                  "endLine": 115,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package send@0.1.0 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 131,
+                  "endLine": 141,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package bytes@0.1.0 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 7,
+                  "endLine": 11,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package crc@0.2.0 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 55,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package lodash@3.1.0 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 91,
+                  "endLine": 95,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package connect@2.6.0 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 45,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package fresh@0.1.0 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 86,
+                  "endLine": 90,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package express@3.0.0 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 80,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package send@0.0.4 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 33,
+                  "endLine": 43,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package methods@0.0.1 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 96,
+                  "endLine": 100,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_OPRISK_LOW",
+          "ruleIndex": 18,
+          "level": "note",
+          "message": {
+            "text": "Package formidable@1.0.11 has operational risk: LOW"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 81,
+                  "endLine": 85,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2014_10064",
+          "ruleIndex": 19,
+          "level": "error",
+          "message": {
+            "text": "The qs module before 1.0.0 does not have an option or default for specifying object depth and when parsing a string representing a deeply nested object will block the event loop for long periods of time. An attacker could leverage this to cause a temporary denial-of-service condition, for example, in a web application, other requests would not be processed while this blocking is occurring."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 125,
+                  "snippet": {
+                    "text": "    \"qs\": {\n      \"version\": \"0.5.1\",\n      \"resolved\": \"https://registry.npmjs.org/qs/-/qs-0.5.1.tgz\",\n      \"integrity\": \"sha1-n2v12axsdjhOldNtFbSJgOXkrdA=\"\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2017_1000048",
+          "ruleIndex": 20,
+          "level": "error",
+          "message": {
+            "text": "the web framework using ljharb's qs module older than v6.3.2, v6.2.3, v6.1.2, and v6.0.4 is vulnerable to a DoS. A malicious user can send a evil request to cause the web framework crash."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 125,
+                  "snippet": {
+                    "text": "    \"qs\": {\n      \"version\": \"0.5.1\",\n      \"resolved\": \"https://registry.npmjs.org/qs/-/qs-0.5.1.tgz\",\n      \"integrity\": \"sha1-n2v12axsdjhOldNtFbSJgOXkrdA=\"\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2022_24999",
+          "ruleIndex": 38,
+          "level": "error",
+          "message": {
+            "text": "qs before 6.10.3, as used in Express before 4.17.3 and other products, allows attackers to cause a Node process hang for an Express application because an __ proto__ key can be used. In many typical Express use cases, an unauthenticated remote attacker can place the attack payload in the query string of the URL that is used to visit the application, such as a[__proto__]=b&a[__proto__]&a[length]=100000000. The fix was backported to qs 6.9.7, 6.8.3, 6.7.3, 6.6.1, 6.5.3, 6.4.1, 6.3.3, and 6.2.4 (and therefore Express 4.17.3, which has \"deps: qs@6.9.7\" in its release description, is not vulnerable)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 125,
+                  "snippet": {
+                    "text": "    \"qs\": {\n      \"version\": \"0.5.1\",\n      \"resolved\": \"https://registry.npmjs.org/qs/-/qs-0.5.1.tgz\",\n      \"integrity\": \"sha1-n2v12axsdjhOldNtFbSJgOXkrdA=\"\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2024_47764",
+          "ruleIndex": 22,
+          "level": "none",
+          "message": {
+            "text": "cookie is a basic HTTP cookie parser and serializer for HTTP servers. The cookie name could be used to set other fields of the cookie, resulting in an unexpected cookie value. A similar escape can be used for path and domain, which could be abused to alter other fields of the cookie. Upgrade to 0.7.0, which updates the validation for name, path, and domain."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 50,
+                  "snippet": {
+                    "text": "    \"cookie\": {\n      \"version\": \"0.0.4\",\n      \"resolved\": \"https://registry.npmjs.org/cookie/-/cookie-0.0.4.tgz\",\n      \"integrity\": \"sha1-VFa9R67iZm6sl26oCmEFlASD/pg=\"\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2017_16138",
+          "ruleIndex": 23,
+          "level": "error",
+          "message": {
+            "text": "The mime module < 1.4.1, 2.0.1, 2.0.2 is vulnerable to regular expression denial of service when a mime lookup is performed on untrusted user input."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 101,
+                  "endLine": 105,
+                  "snippet": {
+                    "text": "    \"mime\": {\n      \"version\": \"1.2.6\",\n      \"resolved\": \"https://registry.npmjs.org/mime/-/mime-1.2.6.tgz\",\n      \"integrity\": \"sha1-sfhsdowCX6h7SAdfFwnyiuryA2U=\"\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2015_8859",
+          "ruleIndex": 41,
+          "level": "warning",
+          "message": {
+            "text": "The send package before 0.11.1 for Node.js allows attackers to obtain the root path via unspecified vectors."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 131,
+                  "endLine": 141,
+                  "snippet": {
+                    "text": "    \"send\": {\n      \"version\": \"0.1.0\",\n      \"resolved\": \"https://registry.npmjs.org/send/-/send-0.1.0.tgz\",\n      \"integrity\": \"sha1-z7COvTzsm3/Bo32f+eh1qXHPRkA=\",\n      \"requires\": {\n        \"debug\": \"*\",\n        \"fresh\": \"0.1.0\",\n        \"mime\": \"1.2.6\",\n        \"range-parser\": \"0.0.4\"\n      }\n    }"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2024_43799",
+          "ruleIndex": 42,
+          "level": "warning",
+          "message": {
+            "text": "Send is a library for streaming files from the file system as a http response. Send passes untrusted user input to SendStream.redirect() which executes untrusted code. This issue is patched in send 0.19.0."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 131,
+                  "endLine": 141,
+                  "snippet": {
+                    "text": "    \"send\": {\n      \"version\": \"0.1.0\",\n      \"resolved\": \"https://registry.npmjs.org/send/-/send-0.1.0.tgz\",\n      \"integrity\": \"sha1-z7COvTzsm3/Bo32f+eh1qXHPRkA=\",\n      \"requires\": {\n        \"debug\": \"*\",\n        \"fresh\": \"0.1.0\",\n        \"mime\": \"1.2.6\",\n        \"range-parser\": \"0.0.4\"\n      }\n    }"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2020_8203",
+          "ruleIndex": 26,
+          "level": "error",
+          "message": {
+            "text": "Prototype pollution attack when using _.zipObjectDeep in lodash before 4.17.20."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 91,
+                  "endLine": 95,
+                  "snippet": {
+                    "text": "    \"lodash\": {\n      \"version\": \"3.1.0\",\n      \"resolved\": \"https://registry.npmjs.org/lodash/-/lodash-3.1.0.tgz\",\n      \"integrity\": \"sha1-1BuLM1MMs74IiFMgitMAktLCeWE=\"\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2020_28500",
+          "ruleIndex": 27,
+          "level": "warning",
+          "message": {
+            "text": "Lodash versions prior to 4.17.21 are vulnerable to Regular Expression Denial of Service (ReDoS) via the toNumber, trim and trimEnd functions."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 91,
+                  "endLine": 95,
+                  "snippet": {
+                    "text": "    \"lodash\": {\n      \"version\": \"3.1.0\",\n      \"resolved\": \"https://registry.npmjs.org/lodash/-/lodash-3.1.0.tgz\",\n      \"integrity\": \"sha1-1BuLM1MMs74IiFMgitMAktLCeWE=\"\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2019_10744",
+          "ruleIndex": 28,
+          "level": "error",
+          "message": {
+            "text": "Versions of lodash lower than 4.17.12 are vulnerable to Prototype Pollution. The function defaultsDeep could be tricked into adding or modifying properties of Object.prototype using a constructor payload."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 91,
+                  "endLine": 95,
+                  "snippet": {
+                    "text": "    \"lodash\": {\n      \"version\": \"3.1.0\",\n      \"resolved\": \"https://registry.npmjs.org/lodash/-/lodash-3.1.0.tgz\",\n      \"integrity\": \"sha1-1BuLM1MMs74IiFMgitMAktLCeWE=\"\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2021_23337",
+          "ruleIndex": 29,
+          "level": "error",
+          "message": {
+            "text": "Lodash versions prior to 4.17.21 are vulnerable to Command Injection via the template function."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 91,
+                  "endLine": 95,
+                  "snippet": {
+                    "text": "    \"lodash\": {\n      \"version\": \"3.1.0\",\n      \"resolved\": \"https://registry.npmjs.org/lodash/-/lodash-3.1.0.tgz\",\n      \"integrity\": \"sha1-1BuLM1MMs74IiFMgitMAktLCeWE=\"\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2018_3721",
+          "ruleIndex": 30,
+          "level": "warning",
+          "message": {
+            "text": "lodash node module before 4.17.5 suffers from a Modification of Assumed-Immutable Data (MAID) vulnerability via defaultsDeep, merge, and mergeWith functions, which allows a malicious user to modify the prototype of \"Object\" via __proto__, causing the addition or modification of an existing property that will exist on all objects."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 91,
+                  "endLine": 95,
+                  "snippet": {
+                    "text": "    \"lodash\": {\n      \"version\": \"3.1.0\",\n      \"resolved\": \"https://registry.npmjs.org/lodash/-/lodash-3.1.0.tgz\",\n      \"integrity\": \"sha1-1BuLM1MMs74IiFMgitMAktLCeWE=\"\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2018_16487",
+          "ruleIndex": 31,
+          "level": "warning",
+          "message": {
+            "text": "A prototype pollution vulnerability was found in lodash <4.17.11 where the functions merge, mergeWith, and defaultsDeep can be tricked into adding or modifying properties of Object.prototype."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 91,
+                  "endLine": 95,
+                  "snippet": {
+                    "text": "    \"lodash\": {\n      \"version\": \"3.1.0\",\n      \"resolved\": \"https://registry.npmjs.org/lodash/-/lodash-3.1.0.tgz\",\n      \"integrity\": \"sha1-1BuLM1MMs74IiFMgitMAktLCeWE=\"\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2019_1010266",
+          "ruleIndex": 32,
+          "level": "warning",
+          "message": {
+            "text": "lodash prior to 4.17.11 is affected by: CWE-400: Uncontrolled Resource Consumption. The impact is: Denial of service. The component is: Date handler. The attack vector is: Attacker provides very long strings, which the library attempts to match using a regular expression. The fixed version is: 4.17.11."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 91,
+                  "endLine": 95,
+                  "snippet": {
+                    "text": "    \"lodash\": {\n      \"version\": \"3.1.0\",\n      \"resolved\": \"https://registry.npmjs.org/lodash/-/lodash-3.1.0.tgz\",\n      \"integrity\": \"sha1-1BuLM1MMs74IiFMgitMAktLCeWE=\"\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2013_7371",
+          "ruleIndex": 33,
+          "level": "warning",
+          "message": {
+            "text": "node-connects before 2.8.2 has cross site scripting in Sencha Labs Connect middleware (vulnerability due to incomplete fix for CVE-2013-7370)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 45,
+                  "snippet": {
+                    "text": "    \"connect\": {\n      \"version\": \"2.6.0\",\n      \"resolved\": \"https://registry.npmjs.org/connect/-/connect-2.6.0.tgz\",\n      \"integrity\": \"sha1-OdSuftTE2U2GcN/i1+ixObTerU8=\",\n      \"requires\": {\n        \"bytes\": \"0.1.0\",\n        \"cookie\": \"0.0.4\",\n        \"crc\": \"0.2.0\",\n        \"debug\": \"*\",\n        \"formidable\": \"1.0.11\",\n        \"fresh\": \"0.1.0\",\n        \"pause\": \"0.0.1\",\n        \"qs\": \"0.5.1\",\n        \"send\": \"0.0.4\"\n      },\n      \"dependencies\": {\n        \"send\": {\n          \"version\": \"0.0.4\",\n          \"resolved\": \"https://registry.npmjs.org/send/-/send-0.0.4.tgz\",\n          \"integrity\": \"sha1-LUz3mxifzQlhDhMCUQrJsOTd6AA=\",\n          \"requires\": {\n            \"debug\": \"*\",\n            \"fresh\": \"0.1.0\",\n            \"mime\": \"1.2.6\",\n            \"range-parser\": \"0.0.4\"\n          }\n        }\n      }\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2018_3717",
+          "ruleIndex": 34,
+          "level": "warning",
+          "message": {
+            "text": "connect node module before 2.14.0 suffers from a Cross-Site Scripting (XSS) vulnerability due to a lack of validation of file in directory.js middleware."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 45,
+                  "snippet": {
+                    "text": "    \"connect\": {\n      \"version\": \"2.6.0\",\n      \"resolved\": \"https://registry.npmjs.org/connect/-/connect-2.6.0.tgz\",\n      \"integrity\": \"sha1-OdSuftTE2U2GcN/i1+ixObTerU8=\",\n      \"requires\": {\n        \"bytes\": \"0.1.0\",\n        \"cookie\": \"0.0.4\",\n        \"crc\": \"0.2.0\",\n        \"debug\": \"*\",\n        \"formidable\": \"1.0.11\",\n        \"fresh\": \"0.1.0\",\n        \"pause\": \"0.0.1\",\n        \"qs\": \"0.5.1\",\n        \"send\": \"0.0.4\"\n      },\n      \"dependencies\": {\n        \"send\": {\n          \"version\": \"0.0.4\",\n          \"resolved\": \"https://registry.npmjs.org/send/-/send-0.0.4.tgz\",\n          \"integrity\": \"sha1-LUz3mxifzQlhDhMCUQrJsOTd6AA=\",\n          \"requires\": {\n            \"debug\": \"*\",\n            \"fresh\": \"0.1.0\",\n            \"mime\": \"1.2.6\",\n            \"range-parser\": \"0.0.4\"\n          }\n        }\n      }\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2013_7370",
+          "ruleIndex": 35,
+          "level": "warning",
+          "message": {
+            "text": "node-connect before 2.8.1 has XSS in the Sencha Labs Connect middleware"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 45,
+                  "snippet": {
+                    "text": "    \"connect\": {\n      \"version\": \"2.6.0\",\n      \"resolved\": \"https://registry.npmjs.org/connect/-/connect-2.6.0.tgz\",\n      \"integrity\": \"sha1-OdSuftTE2U2GcN/i1+ixObTerU8=\",\n      \"requires\": {\n        \"bytes\": \"0.1.0\",\n        \"cookie\": \"0.0.4\",\n        \"crc\": \"0.2.0\",\n        \"debug\": \"*\",\n        \"formidable\": \"1.0.11\",\n        \"fresh\": \"0.1.0\",\n        \"pause\": \"0.0.1\",\n        \"qs\": \"0.5.1\",\n        \"send\": \"0.0.4\"\n      },\n      \"dependencies\": {\n        \"send\": {\n          \"version\": \"0.0.4\",\n          \"resolved\": \"https://registry.npmjs.org/send/-/send-0.0.4.tgz\",\n          \"integrity\": \"sha1-LUz3mxifzQlhDhMCUQrJsOTd6AA=\",\n          \"requires\": {\n            \"debug\": \"*\",\n            \"fresh\": \"0.1.0\",\n            \"mime\": \"1.2.6\",\n            \"range-parser\": \"0.0.4\"\n          }\n        }\n      }\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2017_16119",
+          "ruleIndex": 36,
+          "level": "error",
+          "message": {
+            "text": "Fresh is a module used by the Express.js framework for HTTP response freshness testing. It is vulnerable to a regular expression denial of service when it is passed specially crafted input to parse. This causes the event loop to be blocked causing a denial of service condition."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 86,
+                  "endLine": 90,
+                  "snippet": {
+                    "text": "    \"fresh\": {\n      \"version\": \"0.1.0\",\n      \"resolved\": \"https://registry.npmjs.org/fresh/-/fresh-0.1.0.tgz\",\n      \"integrity\": \"sha1-A+SwF4Qk5MLV0ZpU2IFM3JeTSFA=\"\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2024_10491",
+          "ruleIndex": 37,
+          "level": "warning",
+          "message": {
+            "text": "A vulnerability has been identified in the Express response.links\u00a0function, allowing for arbitrary resource injection in the Link\u00a0header when unsanitized data is used.  The issue arises from improper sanitization in `Link` header values, which can allow a combination of characters like `,`, `;`, and `<>` to preload malicious resources.  This vulnerability is especially relevant for dynamic parameters."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 80,
+                  "snippet": {
+                    "text": "    \"express\": {\n      \"version\": \"3.0.0\",\n      \"resolved\": \"https://registry.npmjs.org/express/-/express-3.0.0.tgz\",\n      \"integrity\": \"sha1-QeIC82J+pEK+nobV7FEkatcjOe0=\",\n      \"requires\": {\n        \"commander\": \"0.6.1\",\n        \"connect\": \"2.6.0\",\n        \"cookie\": \"0.0.4\",\n        \"crc\": \"0.2.0\",\n        \"debug\": \"*\",\n        \"fresh\": \"0.1.0\",\n        \"methods\": \"0.0.1\",\n        \"mkdirp\": \"0.3.3\",\n        \"range-parser\": \"0.0.4\",\n        \"send\": \"0.1.0\"\n      }\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2022_24999",
+          "ruleIndex": 38,
+          "level": "error",
+          "message": {
+            "text": "qs before 6.10.3, as used in Express before 4.17.3 and other products, allows attackers to cause a Node process hang for an Express application because an __ proto__ key can be used. In many typical Express use cases, an unauthenticated remote attacker can place the attack payload in the query string of the URL that is used to visit the application, such as a[__proto__]=b&a[__proto__]&a[length]=100000000. The fix was backported to qs 6.9.7, 6.8.3, 6.7.3, 6.6.1, 6.5.3, 6.4.1, 6.3.3, and 6.2.4 (and therefore Express 4.17.3, which has \"deps: qs@6.9.7\" in its release description, is not vulnerable)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 80,
+                  "snippet": {
+                    "text": "    \"express\": {\n      \"version\": \"3.0.0\",\n      \"resolved\": \"https://registry.npmjs.org/express/-/express-3.0.0.tgz\",\n      \"integrity\": \"sha1-QeIC82J+pEK+nobV7FEkatcjOe0=\",\n      \"requires\": {\n        \"commander\": \"0.6.1\",\n        \"connect\": \"2.6.0\",\n        \"cookie\": \"0.0.4\",\n        \"crc\": \"0.2.0\",\n        \"debug\": \"*\",\n        \"fresh\": \"0.1.0\",\n        \"methods\": \"0.0.1\",\n        \"mkdirp\": \"0.3.3\",\n        \"range-parser\": \"0.0.4\",\n        \"send\": \"0.1.0\"\n      }\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2024_29041",
+          "ruleIndex": 39,
+          "level": "warning",
+          "message": {
+            "text": "Express.js minimalist web framework for node. Versions of Express.js prior to 4.19.0 and all pre-release alpha and beta versions of 5.0 are affected by an open redirect vulnerability using malformed URLs. When a user of Express performs a redirect using a user-provided URL Express performs an encode [using `encodeurl`](https://github.com/pillarjs/encodeurl) on the contents before passing it to the `location` header. This can cause malformed URLs to be evaluated in unexpected ways by common redirect allow list implementations in Express applications, leading to an Open Redirect via bypass of a properly implemented allow list. The main method impacted is `res.location()` but this is also called from within `res.redirect()`. The vulnerability is fixed in 4.19.2 and 5.0.0-beta.3."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 80,
+                  "snippet": {
+                    "text": "    \"express\": {\n      \"version\": \"3.0.0\",\n      \"resolved\": \"https://registry.npmjs.org/express/-/express-3.0.0.tgz\",\n      \"integrity\": \"sha1-QeIC82J+pEK+nobV7FEkatcjOe0=\",\n      \"requires\": {\n        \"commander\": \"0.6.1\",\n        \"connect\": \"2.6.0\",\n        \"cookie\": \"0.0.4\",\n        \"crc\": \"0.2.0\",\n        \"debug\": \"*\",\n        \"fresh\": \"0.1.0\",\n        \"methods\": \"0.0.1\",\n        \"mkdirp\": \"0.3.3\",\n        \"range-parser\": \"0.0.4\",\n        \"send\": \"0.1.0\"\n      }\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2024_43796",
+          "ruleIndex": 40,
+          "level": "warning",
+          "message": {
+            "text": "Express.js minimalist web framework for node. In express < 4.20.0, passing untrusted user input - even after sanitizing it - to response.redirect() may execute untrusted code. This issue is patched in express 4.20.0."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 80,
+                  "snippet": {
+                    "text": "    \"express\": {\n      \"version\": \"3.0.0\",\n      \"resolved\": \"https://registry.npmjs.org/express/-/express-3.0.0.tgz\",\n      \"integrity\": \"sha1-QeIC82J+pEK+nobV7FEkatcjOe0=\",\n      \"requires\": {\n        \"commander\": \"0.6.1\",\n        \"connect\": \"2.6.0\",\n        \"cookie\": \"0.0.4\",\n        \"crc\": \"0.2.0\",\n        \"debug\": \"*\",\n        \"fresh\": \"0.1.0\",\n        \"methods\": \"0.0.1\",\n        \"mkdirp\": \"0.3.3\",\n        \"range-parser\": \"0.0.4\",\n        \"send\": \"0.1.0\"\n      }\n    },"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2015_8859",
+          "ruleIndex": 41,
+          "level": "warning",
+          "message": {
+            "text": "The send package before 0.11.1 for Node.js allows attackers to obtain the root path via unspecified vectors."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 33,
+                  "endLine": 43,
+                  "snippet": {
+                    "text": "        \"send\": {\n          \"version\": \"0.0.4\",\n          \"resolved\": \"https://registry.npmjs.org/send/-/send-0.0.4.tgz\",\n          \"integrity\": \"sha1-LUz3mxifzQlhDhMCUQrJsOTd6AA=\",\n          \"requires\": {\n            \"debug\": \"*\",\n            \"fresh\": \"0.1.0\",\n            \"mime\": \"1.2.6\",\n            \"range-parser\": \"0.0.4\"\n          }\n        }"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "APPSEC_VULN_CVE_2024_43799",
+          "ruleIndex": 42,
+          "level": "warning",
+          "message": {
+            "text": "Send is a library for streaming files from the file system as a http response. Send passes untrusted user input to SendStream.redirect() which executes untrusted code. This issue is patched in send 0.19.0."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sca/package-lock.json"
+                },
+                "region": {
+                  "startLine": 33,
+                  "endLine": 43,
+                  "snippet": {
+                    "text": "        \"send\": {\n          \"version\": \"0.0.4\",\n          \"resolved\": \"https://registry.npmjs.org/send/-/send-0.0.4.tgz\",\n          \"integrity\": \"sha1-LUz3mxifzQlhDhMCUQrJsOTd6AA=\",\n          \"requires\": {\n            \"debug\": \"*\",\n            \"fresh\": \"0.1.0\",\n            \"mime\": \"1.2.6\",\n            \"range-parser\": \"0.0.4\"\n          }\n        }"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CKV_SECRET_17",
+          "ruleIndex": 43,
+          "level": "none",
+          "message": {
+            "text": "Stripe Access Key"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "secrets/secrets.txt"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2,
+                  "snippet": {
+                    "text": "export AWS_ACCESS_KEY_ID=AKIAI**********\\nexport CIRCLE='rk_liv**********'"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CKV_SECRET_2",
+          "ruleIndex": 44,
+          "level": "none",
+          "message": {
+            "text": "AWS Access Key"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "secrets/secrets.txt"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2,
+                  "snippet": {
+                    "text": "export AWS_ACCESS_KEY_ID=AKIAI**********\\nexport CIRCLE='rk_liv**********'"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CKV_AWS_20",
+          "ruleIndex": 45,
+          "level": "none",
+          "message": {
+            "text": "S3 Bucket has an ACL defined which allows public READ access."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bucket.tf"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 5,
+                  "snippet": {
+                    "text": "resource \"aws_s3_bucket\" \"foo-bucket\" {\n  region        = \"us-east-1\"\n  bucket        = \"my-bucket\"\n  acl           = \"public-read\"\n}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CKV2_AWS_61",
+          "ruleIndex": 46,
+          "level": "none",
+          "message": {
+            "text": "Ensure that an S3 bucket has a lifecycle configuration"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bucket.tf"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 5,
+                  "snippet": {
+                    "text": "resource \"aws_s3_bucket\" \"foo-bucket\" {\n  region        = \"us-east-1\"\n  bucket        = \"my-bucket\"\n  acl           = \"public-read\"\n}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CKV_AWS_18",
+          "ruleIndex": 47,
+          "level": "none",
+          "message": {
+            "text": "Ensure the S3 bucket has access logging enabled"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bucket.tf"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 5,
+                  "snippet": {
+                    "text": "resource \"aws_s3_bucket\" \"foo-bucket\" {\n  region        = \"us-east-1\"\n  bucket        = \"my-bucket\"\n  acl           = \"public-read\"\n}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CKV2_AWS_62",
+          "ruleIndex": 48,
+          "level": "none",
+          "message": {
+            "text": "Ensure S3 buckets should have event notifications enabled"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bucket.tf"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 5,
+                  "snippet": {
+                    "text": "resource \"aws_s3_bucket\" \"foo-bucket\" {\n  region        = \"us-east-1\"\n  bucket        = \"my-bucket\"\n  acl           = \"public-read\"\n}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CKV2_AWS_6",
+          "ruleIndex": 49,
+          "level": "none",
+          "message": {
+            "text": "Ensure that S3 bucket has a Public Access block"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bucket.tf"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 5,
+                  "snippet": {
+                    "text": "resource \"aws_s3_bucket\" \"foo-bucket\" {\n  region        = \"us-east-1\"\n  bucket        = \"my-bucket\"\n  acl           = \"public-read\"\n}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CKV_AWS_145",
+          "ruleIndex": 50,
+          "level": "none",
+          "message": {
+            "text": "Ensure that S3 buckets are encrypted with KMS by default"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bucket.tf"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 5,
+                  "snippet": {
+                    "text": "resource \"aws_s3_bucket\" \"foo-bucket\" {\n  region        = \"us-east-1\"\n  bucket        = \"my-bucket\"\n  acl           = \"public-read\"\n}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CKV_AWS_144",
+          "ruleIndex": 51,
+          "level": "none",
+          "message": {
+            "text": "Ensure that S3 bucket has cross-region replication enabled"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bucket.tf"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 5,
+                  "snippet": {
+                    "text": "resource \"aws_s3_bucket\" \"foo-bucket\" {\n  region        = \"us-east-1\"\n  bucket        = \"my-bucket\"\n  acl           = \"public-read\"\n}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CKV2_AWS_43",
+          "ruleIndex": 52,
+          "level": "none",
+          "message": {
+            "text": "Ensure S3 Bucket does not allow access to all Authenticated users"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bucket.tf"
+                },
+                "region": {
+                  "startLine": 8,
+                  "endLine": 23,
+                  "snippet": {
+                    "text": "resource \"aws_s3_bucket_acl\" \"fail_2\" {\n  bucket = \"name\"\n  access_control_policy {\n\n    grant {\n      grantee {\n        type = \"Group\"\n        uri  = \"http://acs.amazonaws.com/groups/global/AuthenticatedUsers\"\n      }\n      permission = \"READ_ACP\"\n    }\n    owner {\n      id = data.aws_canonical_user_id.current.id\n    }\n  }\n}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CKV_AWS_21",
+          "ruleIndex": 53,
+          "level": "none",
+          "message": {
+            "text": "Ensure all data stored in the S3 bucket have versioning enabled"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bucket.tf"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 5,
+                  "snippet": {
+                    "text": "resource \"aws_s3_bucket\" \"foo-bucket\" {\n  region        = \"us-east-1\"\n  bucket        = \"my-bucket\"\n  acl           = \"public-read\"\n}"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
