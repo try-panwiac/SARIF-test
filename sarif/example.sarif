@@ -839,6 +839,9 @@
               },
               "defaultConfiguration": {
                 "level": "error"
+              },
+              "properties": {
+                "security-severity": "8.9"
               }
             },
             {
